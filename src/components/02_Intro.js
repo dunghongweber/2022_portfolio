@@ -96,7 +96,7 @@ const Intro = () => {
       {/* intro section for small screens */}
       <div className="d-lg-none d-md-block pt-5" id="bigintro">
         <div className="row py-5  justify-content-center">
-          <div className="col-7 col-sm-5">
+          <div className="col-7 col-sm-7">
             <motion.div
               className="input-group mb-3"
               initial={{ y: "-1000vw" }}

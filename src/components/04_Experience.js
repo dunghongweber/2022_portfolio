@@ -45,8 +45,8 @@ const Experience = () => {
           <div className="col-lg-5">
             <motion.div
               className="row"
-              initial={{ x: "50vh", opacity: 0 }}
-              transition={{ duration: 2 }}
+              initial={{ x: 50, opacity: 0 }}
+              transition={{ duration: 1 }}
               whileInView={{ x: 0, opacity: 1 }}
               viewport={{ once: true }}
             >
@@ -86,8 +86,8 @@ const Experience = () => {
 
             <motion.div
               className="row py-3"
-              initial={{ x: "50vh", opacity: 0 }}
-              transition={{ duration: 2.5 }}
+              initial={{ x: 50, opacity: 0 }}
+              transition={{ duration: 1.5 }}
               whileInView={{ x: 0, opacity: 1 }}
               viewport={{ once: true }}
             >
