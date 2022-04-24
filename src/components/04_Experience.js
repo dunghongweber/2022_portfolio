@@ -15,7 +15,7 @@ const Experience = () => {
           <div className="col-lg-5 pb-5">
             <motion.ul
               className="list-group fw-bold"
-              initial={{ x: "-50vh", opacity: 0 }}
+              initial={{ x: -50, opacity: 0 }}
               transition={{ duration: 2 }}
               whileInView={{ x: 0, opacity: 1 }}
               viewport={{ once: true }}
