@@ -101,7 +101,7 @@ const Intro = () => {
               className="input-group mb-3"
               initial={{ y: "-1000vw" }}
               animate={{ y: 0 }}
-              transition={{ duration: 2, ease: "easeOut" }}
+              transition={{ duration: 0.5, ease: "easeOut" }}
             >
               <span className="input-group-text" id="basic-addon1">
                 <i className="bi bi-envelope-fill text-primary"></i>
