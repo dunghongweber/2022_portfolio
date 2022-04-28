@@ -26,7 +26,7 @@ const Intro = () => {
                   id="d-letter"
                   d="M75.1754 140L75 50C146.348 59.5039 147.59 131.437 75.1754 140Z"
                   stroke="white"
-                  stroke-width="12"
+                  strokeWidth="12"
                   initial={{ opacity: 0, pathLength: 0 }}
                   animate={{ opacity: 1, pathLength: 1 }}
                   transition={{ duration: 2, ease: "easeInOut" }}
@@ -36,7 +36,7 @@ const Intro = () => {
                     id="vert-right"
                     d="M145 168L145 86"
                     stroke="white"
-                    stroke-width="10"
+                    strokeWidth="10"
                     initial={{ opacity: 0, pathLength: 0 }}
                     animate={{ opacity: 1, pathLength: 1 }}
                     transition={{ duration: 2, ease: "easeInOut" }}
@@ -45,7 +45,7 @@ const Intro = () => {
                     id="vert-left"
                     d="M106 168L106 86"
                     stroke="white"
-                    stroke-width="10"
+                    strokeWidth="10"
                     initial={{ opacity: 0, pathLength: 0 }}
                     animate={{ opacity: 1, pathLength: 1 }}
                     transition={{ duration: 2, ease: "easeInOut" }}
@@ -54,7 +54,7 @@ const Intro = () => {
                     id="Vector 2"
                     d="M109.162 128.128H142.844"
                     stroke="white"
-                    stroke-width="10"
+                    strokeWidth="10"
                     initial={{ opacity: 0, pathLength: 0 }}
                     animate={{ opacity: 1, pathLength: 1 }}
                     transition={{ duration: 2, ease: "easeInOut" }}

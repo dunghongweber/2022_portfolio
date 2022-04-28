@@ -8,6 +8,12 @@ html {
   scroll-behavior: smooth;
 }
 
+.active
+{
+  font-weight: bold;
+  color: white;
+}
+
 .bg {
   margin-top: 0.4%;
   padding-top: 15%;
@@ -130,3 +136,4 @@ html {
     transform: rotateX(360deg);
   }
 }
+

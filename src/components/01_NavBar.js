@@ -1,7 +1,18 @@
 const NavBar = () => {
-  const handleClick = () => {
+  const handleClick = (id) => {
     let element = document.getElementById("navbarNav");
     element.classList.remove("show");
+
+    let inactiveLinks = ["linkAbout", "linkProjects", "linkExperience"];
+
+    inactiveLinks
+      .filter((e) => e !== id)
+      .forEach((e) => {
+        document.getElementById(e).classList.remove("active");
+      });
+
+    let activeLink = document.getElementById(id);
+    activeLink.classList.add("active");
   };
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
@@ -22,20 +33,31 @@ const NavBar = () => {
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
-            <li className="nav-item" onClick={handleClick}>
-              <a className="nav-link active" aria-current="page" href="#about">
+            <li className="nav-item" onClick={() => handleClick("linkAbout")}>
+              <a
+                className="nav-link"
+                aria-current="page"
+                href="#about"
+                id="linkAbout"
+              >
                 About
               </a>
             </li>
 
-            <li className="nav-item" onClick={handleClick}>
-              <a className="nav-link" href="#projects">
+            <li
+              className="nav-item"
+              onClick={() => handleClick("linkProjects")}
+            >
+              <a className="nav-link" href="#projects" id="linkProjects">
                 Projects
               </a>
             </li>
 
-            <li className="nav-item" onClick={handleClick}>
-              <a className="nav-link" href="#experience">
+            <li
+              className="nav-item"
+              onClick={() => handleClick("linkExperience")}
+            >
+              <a className="nav-link" href="#experience" id="linkExperience">
                 Experience
               </a>
             </li>
